@@ -1,8 +1,6 @@
 shopping_list = []
 
 # Add a function to allow users to ask for help when they need to
-
-
 def show_help():
     print('What should we pick up at the store?')
     print("""
@@ -12,8 +10,6 @@ def show_help():
   """)
 
 # Create a function that adds an item to the list
-
-
 def add_to_list(item):
     shopping_list.append(item)
     print('{} was added to your shopping list!'.format(item))
